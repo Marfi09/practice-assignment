@@ -12,10 +12,6 @@ margin: 0;
     
 }
 
-.background-color{
-    background-image: linear-gradient(red, green);
-    background-repeat: no-repeat;
-
 }
 .likha{
     font-size: 20px;
@@ -27,7 +23,10 @@ margin: 0;
 .padma{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 400px;
+
+    box-shadow: rgb(59, 3, 3) 5px 2px 2px 5px;
+    
 }
 .padma-river{
     width: 100%;
@@ -40,4 +39,10 @@ margin: 0;
 }
 .all-rivers{
     display: flex;
+    justify-content: space-around;
+    padding: 100px;
+   
+}
+.likha{
+    padding: 30px;
 }
