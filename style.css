@@ -25,7 +25,7 @@ margin: 0;
     flex-direction: column;
     width: 400px;
 
-    box-shadow: rgb(59, 3, 3) 5px 2px 2px 5px;
+    box-shadow: gray 5px 2px 2px 5px;
     
 }
 .padma-river{
@@ -36,6 +36,7 @@ margin: 0;
     text-decoration: none;
     background-image: radial-gradient( orange, rgb(230, 140, 7));
     padding: 2px 20px ;
+    border-radius: 20px;
 }
 .all-rivers{
     display: flex;
